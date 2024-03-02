@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/bg4.jpg');
+    background-size: auto;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.image-primary {
+    margin: 0px;
+    align-self: center;
+    max-width: 250px; /* Adjust as needed */
+    height: auto;
+}
+
+.image-secondary {
+    margin: 10px;
+    align-self: center;
+    max-width: 80px; /* Adjust as needed */
+    height: auto;
+}
+
+.divider {
+    width: 2px;
+    height: 50px; /* Adjust height as needed */
+    background-color: black;
+    align-self: center;
+    margin-top: 0px; /* Adjust margin as needed */
+}
+.tabs {
+  text-align: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+.tablink-1 {
+  display: inline-block;
+  margin: 0 10px; /* Adjust margin between tabs */
+  cursor: pointer;
+  border: none;
+}
+.tablink-1.active {
+    color: red;
+}
+.tablink-2 {
+    display: inline-block;
+    margin: 0 10px; /* Adjust margin between tabs */
+    cursor: pointer;
+    border: none;
+}
+.tablink-3 {
+    display: inline-block;
+    margin: 0 10px; /* Adjust margin between tabs */
+    cursor: pointer;
+    border: none;
+}
+.content {
+    text-align: center;
+    display: none;
+    padding: 20px;
+}
+.aboutme-content {
+    text-align: center; /* Center align the text */
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    height: auto;
+}
+
+.aboutme-content h1 {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto; /* Center the container */
+  padding: 20px;
+}
+.aboutme-content h2 {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto; /* Center the container */
+  padding: 10px;
+}
+.content-data {
+  text-align: justify;
+  margin-right: 350px;
+  margin-left: 350px;
+}
+.profilepic {
+    display: flex;
+    justify-content: center;
+}
+
+.research {
+    text-align: center; /* Center align the text */
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+}
+.researchinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.researchinfocontentright {
+    flex: 1;
+    margin-left: 200px;
+}
+
+.researchimageright {
+    width: 200px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    float: right;
+    margin-right: 200px;
+}
+.researchleft {
+    display: flex;
+    text-align: left;
+}
+
+.researchimageleft {
+    width: 200px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 200px;
+}
+
+.researchtextleft {
+    flex: 1;
+    padding-left: 20px; /* Add padding to separate text from image */
+    margin-right: 200px;
+    align-items: flex-end;
+}
+.logocontainer {
+  justify-content: center;
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+}
+.logos {
+  justify-content: center;
+    display: flex;
+    align-self: center;
+}
+
+.logos a {
+    margin-right: 20px; /* Adjust spacing between logos */
+    margin-left: 20px;
+}
+.logodivider {
+    width: 2px;
+    height: 30px; /* Adjust height as needed */
+    background-color: black;
+    align-self: center;
+    margin-top: 0px; /* Adjust margin as needed */
+}
