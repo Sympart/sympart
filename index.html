@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <img class="image-primary" src="Sympart Complete Black.png" alt="Sympart Complete Black">
+        <div class="divider"></div>
+        <img class="image-secondary" src="IITGn.png" alt="IITGn">
+    </div>
+    <div class="tabs">
+        <a href="aboutme.html" class="tablink-1" onclick="openTab('aboutme')">ABOUT ME</a>
+        <a href="research.html" class="tablink-1" onclick="openTab('research')">RESEARCH</a>
+        <a href="connect.html" class="tablink-1" onclick="openTab('connect')">CONNECT</a>
+    </div>
+    <div class="content" id="about-me">
+        <h2>About Me</h2>
+        <p>This is information about me.</p>
+    </div>
+    <div class="content" id="research">
+        <h2>Research</h2>
+        <p>This is information about my research.</p>
+    </div>
+    <div class="content" id="connect">
+        <h2>Connect</h2>
+        <p>Lets connect.</p>
+    </div>
+    <div class="aboutme-content">
+      <div class = "content-data">
+        <h1>From Curiosity to Understanding: A Biology Enthusiast's Tale...</h1>
+        <p>Welcome to my corner of curiosity and exploration! From a young age, I've been captivated by the intricate workings of the natural world, particularly in the realm of biology. I still vividly remember a moment in eighth grade when I found myself pondering the intricacies of touch sensation—an inquiry that sparked a lifelong fascination with understanding the mechanisms of life. Fortunately, I had the guidance of a wonderful teacher who not only answered my questions but also instilled in me a deeper appreciation for the subject.</p>
+        <p>This innate curiosity and thirst for knowledge have been the driving forces behind my journey. Every question I ask and every answer I seek adds another layer to my understanding of the world. It's this love for learning and relentless pursuit of understanding that led me to pursue a major in Biotechnology during my college years. As I encountered challenges in basic experiments and sought solutions, I discovered a newfound passion for research—one that continues to drive me forward on my quest for discovery.</p>
+        <h1>Sympart...</h1>
+        <p>In the wake of the recent pandemic, as a biologist, I found myself grappling with a profound sense of helplessness—a feeling that struck deeper than anything I had ever experienced before. It was in that moment of vulnerability that I made a life-altering decision: to dedicate myself to a cause greater than myself, one rooted in the value of humanity and the preservation of human life above all else. Though the path I chose has been fraught with challenges, I remain steadfast in my resolve, fueled by an unwavering determination to make a meaningful impact in the fight against infectious diseases.</p>
+        <p></p>
+        <p>Join me on this exhilarating journey as I share my passion for biology, delve into the intricacies of scientific exploration, and connect with like-minded individuals who share my curiosity for the wonders of the natural world. Together, let's embark on a voyage of discovery and uncover the mysteries that lie within the realm of life sciences.</p>
+      </div>
+    </div>
+    <script>
+        function showTab(tabName) {
+          if (tabName === 'aboutme') {
+                window.location.href = 'aboutme.html';
+            }
+          if (tabName === 'research') {
+                  window.location.href = 'research.html';
+            }
+          if (tabName === 'connect') {
+                  window.location.href = 'connect.html';
+            }
+        }
+    </script>
+</body>
+</html>
