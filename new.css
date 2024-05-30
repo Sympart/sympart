@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('Images/Backgrounds/bg4.jpg');
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -154,27 +154,26 @@ nav a {
     justify-content: center;
     display: flex;
     justify-content: center; /* Center the container horizontally */
-  }
-  .logos {
+}
+.logos {
     justify-content: center;
-      display: flex;
-      align-self: center;
-  }
-  
-  .logos a {
-      margin-right: 20px; /* Adjust spacing between logos */
-      margin-left: 20px;
-  }
-  .logodivider {
-      width: 2px;
-      height: 30px; /* Adjust height as needed */
-      background-color: black;
-      align-self: center;
-      margin-top: 0px; /* Adjust margin as needed */
-  }
+    display: flex;
+    align-self: center;
+}
 
-  /*Research Page Styling*/
-  
+.logos a {
+    margin-right: 20px; /* Adjust spacing between logos */
+    margin-left: 20px;
+}
+.logodivider {
+    width: 2px;
+    height: 30px; /* Adjust height as needed */
+    background-color: black;
+    align-self: center;
+    margin-top: 0px; /* Adjust margin as needed */
+}
+
+/*Research Page Styling*/
 .header-r {
     display: flex;
     align-items: center;
@@ -320,4 +319,67 @@ h2 {
 
 .read-more:hover {
     color: #000;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+    .content-data {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-data {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .tablink-1 {
+        padding: 8px 15px;
+    }
+
+    .aboutme-content h1,
+    .aboutme-content h2 {
+        padding: 10px;
+    }
+
+    .projects-r {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-data {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .tablink-1 {
+        padding: 6px 10px;
+    }
+
+    .image-profilepic img {
+        max-width: 150px;
+    }
+
+    .image-primary,
+    .image-primary-r {
+        max-width: 150px;
+    }
+
+    .image-secondary,
+    .image-secondary-r {
+        max-width: 50px;
+    }
+
+    .tabs-r,
+    .header-r {
+        flex-direction: column;
+    }
+
+    .post-image {
+        width: 75px;
+        height: 75px;
+    }
 }
