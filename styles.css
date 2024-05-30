@@ -154,25 +154,27 @@ nav a {
     justify-content: center;
     display: flex;
     justify-content: center; /* Center the container horizontally */
-}
-.logos {
+  }
+  .logos {
     justify-content: center;
-    display: flex;
-    align-self: center;
-}
-.logos a {
-    margin-right: 20px; /* Adjust spacing between logos */
-    margin-left: 20px;
-}
-.logodivider {
-    width: 2px;
-    height: 30px; /* Adjust height as needed */
-    background-color: black;
-    align-self: center;
-    margin-top: 0px; /* Adjust margin as needed */
-}
+      display: flex;
+      align-self: center;
+  }
+  
+  .logos a {
+      margin-right: 20px; /* Adjust spacing between logos */
+      margin-left: 20px;
+  }
+  .logodivider {
+      width: 2px;
+      height: 30px; /* Adjust height as needed */
+      background-color: black;
+      align-self: center;
+      margin-top: 0px; /* Adjust margin as needed */
+  }
 
-/*Research Page Styling*/  
+  /*Research Page Styling*/
+  
 .header-r {
     display: flex;
     align-items: center;
@@ -320,7 +322,8 @@ h2 {
     color: #000;
 }
 
-/* Responsive Adjustments */
+/*MODULAR*/
+
 @media (max-width: 1200px) {
     .content-data {
         margin-left: 150px;
