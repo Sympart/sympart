@@ -6,6 +6,7 @@
     <title>About me !</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -14,14 +15,15 @@
         <img class="image-secondary" src="Images/Logos/IITGn.png" alt="IITGn">
     </div>
     <div class="tabs">
-        <a href="index.html" class="tablink-1" onclick="openTab('home')">HOME</a>
-        <a href="research.html" class="tablink-1" onclick="openTab('research')">RESEARCH</a>
-        <a href="connect.html" class="tablink-1" onclick="openTab('connect')">CONNECT</a>
+      <a href="index.html" class="tablink-1" onclick="openTab('home')">HOME</a>
+      <span class="tablink-1 active" onclick="openTab('aboutme')">ABOUT ME</span>
+      <a href="research.html" class="tablink-1" onclick="openTab('research')">RESEARCH</a>
+      <a href="connect.html" class="tablink-1" onclick="openTab('connect')">CONNECT</a>
     </div>
     <div class="aboutme-content">
       <div class = "content-data">
         <h1>Welcome to my corner of the internet!</h1>
-        <div class = "profilepic">
+        <div class = "image-profilepic">
           <img src="Images/Profile/me.jpg" height="320" width="240">
         </div>
         <p>I'm a Biotechnology graduate currently pursuing my Master's in Biological Engineering at the Department of Biological Sciences and Engineering, IIT Gandhinagar.</p>
@@ -30,15 +32,5 @@
         <p>Join me on this exhilarating journey as I explore the frontiers of science and endeavor to make meaningful contributions to our understanding of the world around us.</p>
       </div>
     </div>
-    <div class="tabs">
-        <a href="index.html" class="tablink-1" onclick="openTab('home')">HOME</a>
-    </div>
-    <!--
-    <footer>
-        <nav>
-          <p>Developed and coded by Ruthwick. All rights reserved &copy; Sympart</p>
-        </nav>
-    </footer>
-  -->
 </body>
 </html>

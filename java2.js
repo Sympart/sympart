@@ -12,3 +12,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     fadeInImage(); // Start fading in images
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const expandButtons = document.querySelectorAll('.expand-button');
+    const projectOverlays = document.querySelectorAll('.project-overlay');
+
+    expandButtons.forEach((button, index) => {
+        button.addEventListener('click', function() {
+            const overlay = projectOverlays[index];
+            overlay.classList.toggle('active');
+        });
+    });
+});
